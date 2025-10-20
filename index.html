@@ -3,24 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
-  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+        content="NINJA: A simple yet effective jailbreaking method that exploits long contexts to bypass LLM safety filters by embedding harmful goals in benign text.">
+  <meta name="keywords" content="LLM Safety, Jailbreaking, Long Context, NINJA Attack">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nerfies: Deformable Neural Radiance Fields</title>
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-
-    gtag('config', 'G-PYVRSFMDRL');
-  </script>
+  <title>Jailbreaking in the Haystack: NINJA Attack</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
@@ -52,7 +38,7 @@
   </div>
   <div class="navbar-menu">
     <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-      <a class="navbar-item" href="https://keunhong.com">
+      <a class="navbar-item" href="https://www.cs.cmu.edu/~aditirag">
       <span class="icon">
           <i class="fas fa-home"></i>
       </span>
@@ -63,17 +49,8 @@
           More Research
         </a>
         <div class="navbar-dropdown">
-          <a class="navbar-item" href="https://hypernerf.github.io">
-            HyperNeRF
-          </a>
-          <a class="navbar-item" href="https://nerfies.github.io">
-            Nerfies
-          </a>
-          <a class="navbar-item" href="https://latentfusion.github.io">
-            LatentFusion
-          </a>
-          <a class="navbar-item" href="https://photoshape.github.io">
-            PhotoShape
+          <a class="navbar-item" href="https://www.cs.cmu.edu/~aditirag">
+            AR Lab @ CMU
           </a>
         </div>
       </div>
@@ -88,39 +65,35 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Nerfies: Deformable Neural Radiance Fields</h1>
+          <h1 class="title is-1 publication-title">Jailbreaking in the Haystack</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://keunhong.com">Keunhong Park</a><sup>1</sup>,</span>
+              Rishi Shah,</span>
             <span class="author-block">
-              <a href="https://utkarshsinha.com">Utkarsh Sinha</a><sup>2</sup>,</span>
+              Chen Wu,</span>
             <span class="author-block">
-              <a href="https://jonbarron.info">Jonathan T. Barron</a><sup>2</sup>,
+              Shashwat Saxena,
             </span>
             <span class="author-block">
-              <a href="http://sofienbouaziz.com">Sofien Bouaziz</a><sup>2</sup>,
+              Ziqian Zhong,
             </span>
             <span class="author-block">
-              <a href="https://www.danbgoldman.com">Dan B Goldman</a><sup>2</sup>,
+              Alexander Robey,
             </span>
             <span class="author-block">
-              <a href="https://homes.cs.washington.edu/~seitz/">Steven M. Seitz</a><sup>1,2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="http://www.ricardomartinbrualla.com">Ricardo Martin-Brualla</a><sup>2</sup>
+              <a href="https://www.cs.cmu.edu/~aditirag">Aditi Raghunathan</a>
             </span>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>University of Washington,</span>
-            <span class="author-block"><sup>2</sup>Google Research</span>
+            <span class="author-block">Carnegie Mellon University</span>
           </div>
 
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="https://arxiv.org/pdf/2011.12948"
+                <a href="./15865_Jailbreaking_in_the_Hays.pdf"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -129,27 +102,17 @@
                 </a>
               </span>
               <span class="link-block">
-                <a href="https://arxiv.org/abs/2011.12948"
+                <a href="#"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
                   </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
-              <!-- Video Link. -->
-              <span class="link-block">
-                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-youtube"></i>
-                  </span>
-                  <span>Video</span>
+                  <span>arXiv (Coming Soon)</span>
                 </a>
               </span>
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/google/nerfies"
+                <a href="https://github.com/AR-FORUM/NINJA_Attack"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -157,15 +120,6 @@
                   <span>Code</span>
                   </a>
               </span>
-              <!-- Dataset Link. -->
-              <span class="link-block">
-                <a href="https://github.com/google/nerfies/releases/tag/0.1"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="far fa-images"></i>
-                  </span>
-                  <span>Data</span>
-                  </a>
             </div>
 
           </div>
@@ -178,14 +132,9 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/teaser.mp4"
-                type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
-        free-viewpoint
-        portraits.
+      <img src="./static/images/Ninja_cover_image.png" alt="NINJA Attack Overview" style="width: 100%; max-width: 800px; margin: 0 auto; display: block;">
+      <h2 class="subtitle has-text-centered" style="margin-top: 20px;">
+        <span class="dnerf">NINJA</span> (Needle-in-Haystack Jailbreak Attack) embeds harmful goals in benign long contexts to bypass LLM safety filters.
       </h2>
     </div>
   </div>
@@ -195,54 +144,23 @@
 <section class="hero is-light is-small">
   <div class="hero-body">
     <div class="container">
+      <h2 class="title is-3 has-text-centered">Key Results</h2>
       <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-steve">
-          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/steve.mp4"
-                    type="video/mp4">
-          </video>
+        <div class="item">
+          <img src="./static/images/goal_position_20000_Llama3.1-8B-Instruct.png" alt="Goal Positioning Results Llama 3.1" style="width: 100%;">
+          <p class="has-text-centered" style="padding: 10px;">Goal positioning significantly affects attack success on Llama 3.1-8B-Instruct</p>
         </div>
-        <div class="item item-chair-tp">
-          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/chair-tp.mp4"
-                    type="video/mp4">
-          </video>
+        <div class="item">
+          <img src="./static/images/goal_position_20000_qwen2.5-7b-instruct.png" alt="Goal Positioning Results Qwen" style="width: 100%;">
+          <p class="has-text-centered" style="padding: 10px;">Goal positioning effects on Qwen2.5-7B-Instruct</p>
         </div>
-        <div class="item item-shiba">
-          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/shiba.mp4"
-                    type="video/mp4">
-          </video>
+        <div class="item">
+          <img src="./static/images/baseline.png" alt="Baseline Comparison" style="width: 100%;">
+          <p class="has-text-centered" style="padding: 10px;">NINJA significantly outperforms baseline attacks</p>
         </div>
-        <div class="item item-fullbody">
-          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/fullbody.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-blueshirt">
-          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/blueshirt.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-mask">
-          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/mask.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-coffee">
-          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/coffee.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-toby">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/toby2.mp4"
-                    type="video/mp4">
-          </video>
+        <div class="item">
+          <img src="./static/images/experiment_results_workshop.png" alt="Main Results" style="width: 100%;">
+          <p class="has-text-centered" style="padding: 10px;">Attack success rates across different models and context lengths</p>
         </div>
       </div>
     </div>
@@ -258,48 +176,65 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
+            Recent advances in long-context language models (LMs) have enabled million-token inputs, expanding their capabilities across complex tasks like computer-use agents. Yet, the safety implications of these extended contexts remain unclear.
           </p>
           <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
+            To bridge this gap, we introduce <strong>NINJA</strong> (short for <em>Needle-in-haystack jailbreak attack</em>), a method that jailbreaks aligned LMs by appending benign, model-generated content to harmful user goals. Critical to our method is the observation that the position of harmful goals play an important role in safety.
           </p>
           <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
+            Experiments on standard safety benchmark, HarmBench, show that NINJA significantly increases attack success rates across state-of-the-art open and proprietary models, including LLaMA, Qwen, and Gemini. Unlike prior jailbreaking methods, our approach is low-resource, transferable, and less detectable. Moreover, we show that NINJA is compute-optimal -- under a fixed compute budget, increasing context length can outperform increasing the number of trials in best-of-N jailbreak.
+          </p>
+          <p>
+            These findings reveal that even benign long contexts -- when crafted with careful goal positioning -- introduce fundamental vulnerabilities in modern LMs.
           </p>
         </div>
       </div>
     </div>
     <!--/ Abstract. -->
 
-    <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
+    <!-- Key Insights Box. -->
+    <div class="columns is-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
-        <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; border-radius: 10px; margin: 30px 0;">
+          <h3 style="color: white; font-size: 1.4em; margin-bottom: 15px; text-align: center;">🥷 Key Insights</h3>
+          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; text-align: center;">
+            <div>
+              <div style="font-size: 2em; font-weight: bold;">2.5x</div>
+              <div style="font-size: 0.9em;">ASR improvement on Llama-3.1</div>
+            </div>
+            <div>
+              <div style="font-size: 2em; font-weight: bold;">100%</div>
+              <div style="font-size: 0.9em;">Benign context (undetectable)</div>
+            </div>
+            <div>
+              <div style="font-size: 2em; font-weight: bold;">↑ Length</div>
+              <div style="font-size: 0.9em;">More effective than ↑ trials</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <!--/ Paper video. -->
+    <!--/ Key Insights Box. -->
+
+    <!-- Method Overview. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Method Overview</h2>
+        <div class="content has-text-justified">
+          <p>
+            The NINJA attack operates in three simple stages:
+          </p>
+          <ol style="text-align: left; max-width: 600px; margin: 0 auto;">
+            <li><strong>Keyword Extraction:</strong> Extract key nouns, adjectives, and verbs from the harmful goal to capture its core semantics.</li>
+            <li><strong>Context Generation:</strong> Iteratively prompt the LLM to generate benign, educational passages around these keywords until reaching the target context length.</li>
+            <li><strong>Goal Positioning:</strong> Position the harmful goal at the beginning of the long context for maximum attack success.</li>
+          </ol>
+          <br>
+          <img src="./static/images/ninja_anim.png" alt="NINJA Method Visualization" style="width: 100%; max-width: 700px;">
+        </div>
+      </div>
+    </div>
+    <!--/ Method Overview. -->
   </div>
 </section>
 
@@ -309,133 +244,157 @@
 
     <div class="columns is-centered">
 
-      <!-- Visual Effects. -->
+      <!-- Goal Positioning. -->
       <div class="column">
         <div class="content">
-          <h2 class="title is-3">Visual Effects</h2>
+          <h2 class="title is-3">Goal Positioning Matters</h2>
           <p>
-            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-            would be impossible without nerfies since it would require going through a wall.
+            We find that placing the harmful goal at the <strong>beginning</strong> of the context yields the highest attack success rate, likely due to increased model attention and limited opportunity for safety filters to override early generation.
           </p>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/dollyzoom-stacked.mp4"
-                    type="video/mp4">
-          </video>
+          <img src="./static/images/goal_position_20000_Llama3.1-8B-Instruct.png" alt="Goal Positioning Results" style="width: 100%;">
+          <p style="margin-top: 10px; font-size: 0.9em; color: #666;">
+            Positioning the harmful goal at the start (0% position) maximizes attack success compared to the end (100% position).
+          </p>
         </div>
       </div>
-      <!--/ Visual Effects. -->
+      <!--/ Goal Positioning. -->
 
-      <!-- Matting. -->
+      <!-- Compute Optimal. -->
       <div class="column">
-        <h2 class="title is-3">Matting</h2>
+        <h2 class="title is-3">Compute-Optimal Attack</h2>
         <div class="columns is-centered">
           <div class="column content">
             <p>
-              As a byproduct of our method, we can also solve the matting problem by ignoring
-              samples that fall outside of a bounding box during rendering.
+              Under a fixed compute budget, extending benign context length is more effective than scaling the number of trials (best-of-N). Longer contexts yield higher attack success with fewer attempts.
             </p>
-            <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/matting.mp4"
-                      type="video/mp4">
-            </video>
+            <img src="./static/images/baseline.png" alt="Compute Optimal Results" style="width: 100%;">
+            <p style="margin-top: 10px; font-size: 0.9em; color: #666;">
+              Relevant long contexts dramatically increase attack success compared to irrelevant contexts.
+            </p>
           </div>
 
         </div>
       </div>
     </div>
-    <!--/ Matting. -->
+    <!--/ Compute Optimal. -->
 
-    <!-- Animation. -->
+    <!-- Key Contributions. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Animation</h2>
+        <h2 class="title is-3">Key Contributions</h2>
 
-        <!-- Interpolating. -->
-        <h3 class="title is-4">Interpolating states</h3>
+        <!-- Contribution 1. -->
+        <h3 class="title is-4">1. Simple Yet Highly Effective Attack</h3>
         <div class="content has-text-justified">
           <p>
-            We can also animate the scene by interpolating the deformation latent codes of two input
-            frames. Use the slider here to linearly interpolate between the left frame and the right
-            frame.
+            We introduce the NINJA (Needle-in-Haystack Jailbreak) Attack, a simple yet highly effective method for jailbreaking aligned language models. By appending benign, model-generated content to a harmful user goal, our approach significantly boosts the attack success rate (ASR) across various models:
           </p>
-        </div>
-        <div class="columns is-vcentered interpolation-panel">
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_start.jpg"
-                 class="interpolation-image"
-                 alt="Interpolate start reference image."/>
-            <p>Start Frame</p>
-          </div>
-          <div class="column interpolation-video-column">
-            <div id="interpolation-image-wrapper">
-              Loading...
-            </div>
-            <input class="slider is-fullwidth is-large is-info"
-                   id="interpolation-slider"
-                   step="1" min="0" max="100" value="0" type="range">
-          </div>
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_end.jpg"
-                 class="interpolation-image"
-                 alt="Interpolation end reference image."/>
-            <p class="is-bold">End Frame</p>
-          </div>
+          <ul>
+            <li><strong>Llama-3.1-8B-Instruct:</strong> 23.7% → 58.8% ASR</li>
+            <li><strong>Qwen2.5-7B-Instruct:</strong> 23.7% → 42.5% ASR</li>
+            <li><strong>Gemini Flash:</strong> 23% → 29% ASR</li>
+          </ul>
+          <p>The NINJA attack is low-resource and less detectable than prior jailbreaking methods.</p>
         </div>
         <br/>
-        <!--/ Interpolating. -->
+        <!--/ Contribution 1. -->
 
-        <!-- Re-rendering. -->
-        <h3 class="title is-4">Re-rendering the input video</h3>
+        <!-- Contribution 2. -->
+        <h3 class="title is-4">2. Goal Positioning Analysis</h3>
         <div class="content has-text-justified">
           <p>
-            Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel
-            viewpoint such as a stabilized camera by playing back the training deformations.
+            We provide a detailed empirical analysis of goal positioning, revealing that placing the harmful request at the beginning of the context is the most effective strategy for maximizing the attack success rate. This finding highlights a key vulnerability in how long-context models process and prioritize information.
+          </p>
+        </div>
+        <br/>
+        <!--/ Contribution 2. -->
+
+        <!-- Contribution 3. -->
+        <h3 class="title is-4">3. Compute-Aware Scaling Law</h3>
+        <div class="content has-text-justified">
+          <p>
+            We propose a compute-aware scaling law for optimizing jailbreak attacks, demonstrating how to select the optimal context length to maximize the ASR within a given best-of-N compute budget. Our findings show that under a larger compute budget, using a longer context is more effective than increasing the number of attack attempts.
+          </p>
+        </div>
+        <!--/ Contribution 3. -->
+
+      </div>
+    </div>
+    <!--/ Key Contributions. -->
+
+    <!-- Comparison Table. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Performance Comparison</h2>
+        <div class="content has-text-justified">
+          <p>
+            We compare NINJA against established jailbreaking methods including PAIR (optimization-based) and Many-shot jailbreaking (requires harmful demonstrations). NINJA achieves the highest ASR on Llama-3.1 and Qwen2.5, while using entirely benign context.
           </p>
         </div>
         <div class="content has-text-centered">
-          <video id="replay-video"
-                 controls
-                 muted
-                 preload
-                 playsinline
-                 width="75%">
-            <source src="./static/videos/replay.mp4"
-                    type="video/mp4">
-          </video>
+          <table style="margin: 0 auto; border-collapse: collapse; width: 80%;">
+            <thead>
+              <tr style="background-color: #f5f5f5;">
+                <th style="padding: 12px; border: 1px solid #ddd;">Method</th>
+                <th style="padding: 12px; border: 1px solid #ddd;">Llama-3.1-8B</th>
+                <th style="padding: 12px; border: 1px solid #ddd;">Qwen2.5-7B</th>
+                <th style="padding: 12px; border: 1px solid #ddd;">Gemini Flash</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="padding: 12px; border: 1px solid #ddd;">PAIR</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">22.0%</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">34.6%</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">15.3%</td>
+              </tr>
+              <tr>
+                <td style="padding: 12px; border: 1px solid #ddd;">Many-shot</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">45.0%</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">22.5%</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">50.0%</td>
+              </tr>
+              <tr style="background-color: #e8f4f8; font-weight: bold;">
+                <td style="padding: 12px; border: 1px solid #ddd;">NINJA (Ours)</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">58.8%</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">42.5%</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">28.8%</td>
+              </tr>
+            </tbody>
+          </table>
+          <p style="margin-top: 15px; font-size: 0.9em; color: #666;">
+            Attack Success Rate (ASR) comparison on HarmBench. NINJA achieves highest performance on Llama and Qwen while using only benign context.
+          </p>
         </div>
-        <!--/ Re-rendering. -->
-
       </div>
     </div>
-    <!--/ Animation. -->
+    <!--/ Comparison Table. -->
 
-
-    <!-- Concurrent Work. -->
+    <!-- Related Work. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Related Links</h2>
+        <h2 class="title is-3">Related Work</h2>
 
         <div class="content has-text-justified">
           <p>
-            There's a lot of excellent work that was introduced around the same time as ours.
+            Our work builds upon and differs from several lines of research in LLM safety:
           </p>
           <p>
-            <a href="https://arxiv.org/abs/2104.09125">Progressive Encoding for Neural Optimization</a> introduces an idea similar to our windowed position encoding for coarse-to-fine optimization.
+            <strong>Many-Shot Jailbreaking:</strong> Works like <a href="https://www.anthropic.com/research/many-shot-jailbreaking">Anthropic's Many-Shot Jailbreaking</a> show that long contexts with harmful demonstrations can compromise safety. Unlike these methods, NINJA uses entirely benign contexts.
           </p>
           <p>
-            <a href="https://www.albertpumarola.com/research/D-NeRF/index.html">D-NeRF</a> and <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">NR-NeRF</a>
-            both use deformation fields to model non-rigid scenes.
+            <strong>Agent-Based Vulnerabilities:</strong> <a href="https://arxiv.org/abs/2311.09433">Recent work</a> has shown that LLMs are more vulnerable when used as agents. We isolate the effect of context length itself, independent of agentic scaffolding.
           </p>
           <p>
-            Some works model videos with a NeRF by directly modulating the density, such as <a href="https://video-nerf.github.io/">Video-NeRF</a>, <a href="https://www.cs.cornell.edu/~zl548/NSFF/">NSFF</a>, and <a href="https://neural-3d-video.github.io/">DyNeRF</a>
+            <strong>Long-Context Safety:</strong> Our work contributes to the emerging understanding that long-context capabilities introduce new safety challenges that require dedicated mitigation strategies beyond standard alignment techniques.
           </p>
           <p>
-            There are probably many more by the time you are reading this. Check out <a href="https://dellaert.github.io/NeRF/">Frank Dellart's survey on recent NeRF papers</a>, and <a href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's curated list of NeRF papers</a>.
+            <strong>Best-of-N Attacks:</strong> We demonstrate that context-length scaling provides a more compute-efficient alternative to traditional best-of-N jailbreaking approaches.
           </p>
         </div>
       </div>
     </div>
-    <!--/ Concurrent Work. -->
+    <!--/ Related Work. -->
 
   </div>
 </section>
@@ -444,11 +403,11 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{park2021nerfies,
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+    <pre><code>@article{shah2025jailbreaking,
+  author    = {Shah, Rishi and Wu, Chen and Saxena, Shashwat and Zhong, Ziqian and Robey, Alexander and Raghunathan, Aditi},
+  title     = {Jailbreaking in the Haystack: NINJA Attack on Long-Context LLMs},
+  journal   = {arXiv preprint},
+  year      = {2025},
 }</code></pre>
   </div>
 </section>
@@ -458,10 +417,10 @@
   <div class="container">
     <div class="content has-text-centered">
       <a class="icon-link"
-         href="./static/videos/nerfies_paper.pdf">
+         href="./15865_Jailbreaking_in_the_Hays.pdf">
         <i class="fas fa-file-pdf"></i>
       </a>
-      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+      <a class="icon-link" href="https://github.com/AR-FORUM/NINJA_Attack" class="external-link">
         <i class="fab fa-github"></i>
       </a>
     </div>
@@ -474,11 +433,7 @@
             Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
           <p>
-            This means you are free to borrow the <a
-              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
-            we just ask that you link back to this page in the footer.
-            Please remember to remove the analytics code included in the header of the website which
-            you do not want on your website.
+            Website template borrowed from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>.
           </p>
         </div>
       </div>
